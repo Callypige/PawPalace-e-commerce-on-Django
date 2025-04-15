@@ -1,24 +1,20 @@
-# 🐾 PawPalace
+🐾 PawPalace  
+PawPalace is a Django web application for managing a pet boarding service combined with an e-commerce store.  
+It allows users to book a stay for their pets and purchase accessories or pet-related products.
 
-**PawPalace** est une application Django de gestion de pension pour animaux combinée à une boutique e-commerce.  
-Elle permet aux utilisateurs de réserver une place pour leur compagnon et d’acheter des accessoires ou produits pour animaux.
+🧩 Planned core features  
+- Online booking for pet boarding (calendar, availability, confirmation) ❌  
+- Secure customer account space ❌  
+- Online store (products, cart, orders) ❌  
+- Admin interface for managing bookings and inventory ❌  
 
-## 🧩 Fonctionnalités principales prévues
+🚀 Tech stack  
+- Backend: Django + SQLite (or PostgreSQL)  
+- Dependency management: Poetry  
+- Frontend: HTML/CSS + Django Templates (with Bootstrap planned)
 
-- Réservation en ligne pour pension (planning, disponibilité, confirmation) ❌
-- Espace client sécurisé ❌
-- Boutique en ligne (produits, panier, commandes) ❌
-- Interface d’administration pour la gestion des réservations et du stock ❌
-
-## 🚀 Stack technique
-
-- **Backend** : Django + SQLite (ou PostgreSQL)
-- **Gestion des dépendances** : Poetry
-- **Frontend** : HTML/CSS + Django Templates (avec Bootstrap prévu)
-
-## ▶️ Lancer le projet
-
+▶️ Start the project  
 ```bash
-poetry install
-poetry run python manage.py migrate
-poetry run python manage.py runserver
+poetry install  
+poetry run python manage.py migrate  
+poetry run python manage.py runserver  
