@@ -1,0 +1,35 @@
+/* Fond global + texte */
+body {
+    background-color: #0f172a !important;
+    color: #f1f5f9 !important;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar sombre */
+.navbar {
+    background-color: #1e293b;
+    border-bottom: 1px solid #334155;
+}
+
+/* Liens de navigation */
+a, .navbar-brand, .nav-link {
+    color: #86efac;
+}
+
+a:hover, .nav-link:hover {
+    color: #4ade80;
+}
+
+/* Boutons verts "pomme" */
+.btn-primary {
+    background-color: #86efac;
+    border-color: #86efac;
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #4ade80;
+    border-color: #4ade80;
+    color: #0f172a;
+}

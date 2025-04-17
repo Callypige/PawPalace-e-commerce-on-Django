@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>PawPalace - Boutique</title>
-</head>
-<body>
-    <h1>Bienvenue dans la boutique PawPalace 🐾</h1>
-    <p>Réservez une place ou offrez un cadeau à votre compagnon !</p>
-</body>
-</html>
+{% extends 'store/base.html' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block content %}
+  <div class="text-center">
+    <h1 class="display-4 mb-3">🐾 Bienvenue chez <span class="text-purple">PawPalace</span></h1>
+    <p class="lead">La pension & boutique qui bichonne vos compagnons</p>
+    <a href="/products/" class="btn btn-primary mt-4 px-4 py-2">Voir les produits</a>
+  </div>
+{% endblock %}
